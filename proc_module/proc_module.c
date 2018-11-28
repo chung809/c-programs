@@ -6,8 +6,9 @@
 #include <linux/uaccess.h>
 #include "proc_test.h" 
  
-MODULE_LICENSE("Dual BSD/GPL");
-MODULE_AUTHOR("Liran B.H");
+MODULE_LICENSE("GPL");
+MODULE_AUTHOR("Cheng Chung Lee");
+MODULE_DESCRIPTION("Demo for NIUEE");
  
 static int irq=20;
 module_param(irq,int,0660);
